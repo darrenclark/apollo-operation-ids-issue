@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "apollo": "^2.16.0"
+  },
+  "scripts": {
+    "codegen": "apollo client:codegen --localSchemaFile=schema.graphql --includes=\"queries/*.graphql\" --target=swift --operationIdsPath=operationIds.json GraphQL.swift"
+  }
+}

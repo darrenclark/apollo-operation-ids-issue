@@ -1,0 +1,6 @@
+{
+  "02421a21f87d1666ebe489249abe56725781ef3020debd0f4a1ac72597ca9eb6": {
+    "name": "AllFilms",
+    "source": "query AllFilms {\n  allFilms {\n    __typename\n    edges {\n      __typename\n      node {\n        __typename\n        ...film\n      }\n    }\n  }\n}"
+  }
+}
